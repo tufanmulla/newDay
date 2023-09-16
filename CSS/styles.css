@@ -670,7 +670,7 @@ th.th3 {
 }
 
 table tbody {
-  cursor: pi;
+  cursor: pointer;
 }
 table tbody tr {
   position: relative;
