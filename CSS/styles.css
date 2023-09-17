@@ -35,7 +35,7 @@ header {
   overflow: hidden;
   position: sticky;
   top: 0;
-  background-color: #ffffff;
+  background-color: #ffffffdc;
   z-index: 100;
 }
 header .logo {
@@ -702,4 +702,91 @@ td:nth-child(2) {
   font-weight: 500;
 }
 /* Tour Schedule Section CSS ends here */
+/* =========================================================== */
+
+/* =========================================================== */
+/* travel packages CSS are Starts here */
+.travelPackagesTitle {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  position: relative;
+}
+.travelPackagesTitle article h2 {
+  width: 100%;
+  color: #333333;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: oblique;
+  cursor: pointer;
+}
+.travelPackagesTitle article img {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  width: 130px;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+.packagesContainer {
+  overflow: hidden;
+}
+.packages {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.packagesIMG {
+  float: left;
+  width: fit-content;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.packagesIMG img {
+  width: 700px;
+  transition: all 0.5s;
+  cursor: crosshair;
+}
+.packagesIMG:hover img {
+  transform: scale(1.1);
+}
+.packagesDetails {
+  width: 470px;
+  float: right;
+}
+.packagesDetails article h4 {
+  margin-bottom: 25px;
+}
+.packagesDetails article h4 span:first-child {
+  display: inline-block;
+  width: 200px;
+  font-size: 20px;
+  color: #111111;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #3799db;
+  cursor: pointer;
+}
+
+.packagesDetails article h4 span:last-child {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #000000;
+  cursor: pointer;
+}
+.packagesDetails article h4 span:last-child del {
+  margin-right: 10px;
+  color: #a3d770;
+  font-weight: 700;
+  cursor: no-drop;
+}
+.packagesDetails article h4 span:last-child span {
+  color: #3799db;
+  font-weight: 900;
+  cursor: grabbing;
+}
+/* travel packages CSS are ends here */
 /* =========================================================== */
