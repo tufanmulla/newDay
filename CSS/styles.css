@@ -74,7 +74,7 @@ header .logo {
 }
 header .logo img {
   width: 200px;
-  height: 60px;
+  height: 40px;
   cursor: crosshair;
   transition: all 0.6s;
 }
@@ -84,11 +84,14 @@ header .logo:hover img {
 header nav {
   width: 900px;
   float: right;
-  margin-top: 24px;
   position: relative;
 }
 header nav ul {
   list-style: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(50%, 50%);
   float: right;
 }
 header nav ul li {
@@ -102,8 +105,9 @@ header nav ul li:hover {
   transform: scale(1.1);
 }
 header nav ul li a {
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
+  text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 2px;
   padding: 3px;
@@ -120,7 +124,7 @@ header nav ul li a::after {
   left: 0%;
   transform-origin: left;
   width: 0%;
-  height: 1%;
+  height: 1px;
   background-color: #3799db;
   transition: all 0.3s;
 }
@@ -168,11 +172,12 @@ header nav ul li:last-child {
 }
 #sectionOne article h1 {
   margin-bottom: 25px;
-  font-size: 42px;
+  font-size: 35px;
   color: #333333;
   font-style: oblique;
   font-weight: bolder;
   letter-spacing: 3px;
+  text-transform: uppercase;
   cursor: pointer;
 }
 #sectionOne article p {
@@ -251,6 +256,26 @@ header nav ul li:last-child {
 .serviceCard:hover img {
   transform: translateY(-10px) translateX(-10px);
 }
+.serviceCard:nth-child(2):hover img {
+  z-index: 10;
+  animation-name: runPlane;
+  animation-duration: 1s; /* Adjust the duration as needed */
+}
+/* Initial styles for all boxes */
+.serviceCard {
+  opacity: 1;
+}
+
+/* Decrease opacity of following sibling boxes when hovering over any box */
+.serviceCard:hover ~ .serviceCard {
+  opacity: 0.5;
+}
+
+/* Increase opacity of the hovered box */
+.serviceCard:hover {
+  opacity: 1;
+}
+
 .serviceCard article {
   width: 300px;
   float: right;
@@ -440,12 +465,28 @@ header nav ul li:last-child {
   transform: scale(1.1);
 }
 .specialCategoriesImgBoxContent article h3 {
+  width: 100%;
   font-size: 23px;
   font-weight: 600;
   font-style: oblique;
   color: #3799db;
   margin-bottom: 10px;
   cursor: pointer;
+  position: relative;
+}
+.specialCategoriesImgBoxContent article h3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform-origin: left;
+  width: 0%;
+  height: 3px;
+  background-color: #3799db;
+  transition: all 0.3s;
+}
+.specialCategorie:hover .specialCategoriesImgBoxContent article h3::after {
+  width: 100%;
 }
 .specialCategoriesImgBoxContent article p {
   font-size: 15px;
@@ -570,9 +611,24 @@ header nav ul li:last-child {
   margin: 0 auto;
   text-align: center;
   transition: all 0.2s;
+  position: relative;
 }
 .statisticsBox:hover article p {
   color: #3799db;
+}
+.statisticsBox article p::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform-origin: left;
+  width: 0%;
+  height: 2px;
+  background-color: #3799db;
+  transition: all 0.3s;
+}
+.statisticsBox:hover article p::after {
+  width: 100%;
 }
 /* statistics section CSS ends here */
 /* =========================================================== */
@@ -601,6 +657,7 @@ table thead tr th {
   letter-spacing: 1px;
   font-weight: 900;
   padding: 20px;
+  color: #fff;
   text-align: start;
   text-transform: uppercase;
 }
@@ -684,10 +741,11 @@ td:nth-child(2) {
 .packagesDetails article h4 span:first-child {
   display: inline-block;
   width: 200px;
-  font-size: 20px;
+  font-size: 18px;
   color: #111111;
+  text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
   color: #3799db;
   cursor: pointer;
 }
@@ -818,7 +876,7 @@ td:nth-child(2) {
 /* =========================================================== */
 /* footer section CSS are Starts here */
 footer.footer {
-  padding: 120px 0 120px 0;
+  padding: 120px 0 50px 0;
   overflow: hidden;
 }
 .footerContentContainer {
@@ -839,18 +897,19 @@ footer.footer {
 }
 .addressContent h5 {
   text-align: center;
-  font-size: 22px;
+  font-size: 19px;
+  font-weight: 500;
   color: #333333;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 
 .addressContent b {
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   cursor: pointer;
 }
@@ -859,22 +918,32 @@ footer.footer {
 }
 .phoneNo h5 {
   text-align: center;
-  font-size: 22px;
+  font-size: 19px;
+  font-weight: 500;
   color: #333333;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 
 .phoneNo b {
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   cursor: pointer;
 }
-
+.socialLinks h5 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+  color: #333333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
 .socialLinks ul {
   list-style: none;
   margin: 0 auto;
@@ -883,7 +952,7 @@ footer.footer {
 
 .socialLinks ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 35px;
   font-size: 45px;
 }
 .socialLinks ul li a {
@@ -900,7 +969,8 @@ footer.footer {
 
 .contactUs h5 {
   text-align: start;
-  font-size: 22px;
+  font-size: 19px;
+  font-weight: 500;
   color: #333333;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -939,13 +1009,14 @@ footer.footer {
 }
 .contactUs form button {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   background-color: #3799db;
   border: none;
   outline: none;
   font-weight: 400;
-  letter-spacing: 1px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   padding: 10px 20px;
   cursor: pointer;
   transition: all 0.3s;
