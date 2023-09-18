@@ -26,6 +26,34 @@ html {
 section {
   padding: 130px 0 130px 0;
 }
+
+/* default title div CSS are starts here */
+.titleDiv {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  position: relative;
+}
+.titleDiv article h2 {
+  width: 100%;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-style: oblique;
+  cursor: pointer;
+}
+.titleDiv article img {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  width: 130px;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+/* default title div CSS ends here */
 /* Default CSS ends here */
 /* ============================================================ */
 
@@ -69,12 +97,7 @@ header nav ul li {
   margin-right: 25px;
   transition: 0.5s;
 }
-header nav ul li:nth-child(2) a {
-  color: #000000;
-}
-header nav ul li:nth-child(2):hover a {
-  color: #3799db;
-}
+
 header nav ul li:hover {
   transform: scale(1.1);
 }
@@ -88,9 +111,30 @@ header nav ul li a {
   color: #3799db;
   font-style: oblique;
   transition: all 0.5s;
+  position: relative;
+}
+header nav ul li a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform-origin: left;
+  width: 0%;
+  height: 1%;
+  background-color: #3799db;
+  transition: all 0.3s;
 }
 header nav ul li:hover a {
   color: #000000;
+}
+header nav ul li:hover a::after {
+  width: 100%;
+}
+header nav ul li:nth-child(2) a {
+  color: #000000;
+}
+header nav ul li:nth-child(2):hover a {
+  color: #3799db;
 }
 header nav ul li:last-child {
   margin-right: 0;
@@ -187,30 +231,6 @@ header nav ul li:last-child {
 
 /* ============================================================== */
 /* Service Section CSS are starts here */
-.serviceTitle {
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 90px;
-  position: relative;
-}
-.serviceTitle article h2 {
-  width: 100%;
-  color: #333333;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 40px;
-  font-weight: 500;
-  font-style: oblique;
-  cursor: pointer;
-}
-.serviceTitle article img {
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  width: 130px;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-}
 .serviceCards {
   width: 100%;
   margin: 0 auto;
@@ -257,30 +277,6 @@ header nav ul li:last-child {
 
 /* =========================================================== */
 /* Awesome Travel section CSS are starts here */
-.awesomeTravelTitle {
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 90px;
-  position: relative;
-}
-.awesomeTravelTitle article h2 {
-  width: 100%;
-  color: #333333;
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-style: oblique;
-  cursor: pointer;
-}
-.awesomeTravelTitle article img {
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  width: 130px;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-}
 .awesomeTravelBoxes {
   width: 100%;
 }
@@ -409,35 +405,9 @@ header nav ul li:last-child {
 
 /* =========================================================== */
 /* Special Categories CSS are starts here*/
-.spacialCategoriesTitle {
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 90px;
-  position: relative;
-}
-.spacialCategoriesTitle article h2 {
-  width: 100%;
-  color: #333333;
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-style: oblique;
-  cursor: pointer;
-}
-.spacialCategoriesTitle article img {
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  width: 130px;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-}
-
 .categoriesContainer {
   margin: 0 auto;
 }
-
 .specialCategorie {
   width: 377px;
   display: inline-block;
@@ -609,30 +579,6 @@ header nav ul li:last-child {
 
 /* =========================================================== */
 /* Tour Schedule Section CSS are starts here */
-.tourScheduleTitle {
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 90px;
-  position: relative;
-}
-.tourScheduleTitle article h2 {
-  width: 100%;
-  color: #333333;
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-style: oblique;
-  cursor: pointer;
-}
-.tourScheduleTitle article img {
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  width: 130px;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-}
 table {
   width: 850px;
   margin: 0 auto;
@@ -706,30 +652,6 @@ td:nth-child(2) {
 
 /* =========================================================== */
 /* travel packages CSS are Starts here */
-.travelPackagesTitle {
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 90px;
-  position: relative;
-}
-.travelPackagesTitle article h2 {
-  width: 100%;
-  color: #333333;
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-style: oblique;
-  cursor: pointer;
-}
-.travelPackagesTitle article img {
-  position: absolute;
-  top: 150%;
-  left: 50%;
-  width: 130px;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-}
 .packagesContainer {
   overflow: hidden;
 }
@@ -789,4 +711,249 @@ td:nth-child(2) {
   cursor: grabbing;
 }
 /* travel packages CSS are ends here */
+/* =========================================================== */
+
+/* =========================================================== */
+/* testimonial section css are starts here */
+.testimonialBox {
+  position: relative;
+  width: 850px;
+  margin: 0 auto;
+}
+.testimonialBox p {
+  text-align: center;
+  color: #333333;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  padding-top: 35px;
+  margin-bottom: 20px;
+}
+.testimonialBox p:before {
+  content: ",,";
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: #3799db;
+  font-weight: 900;
+}
+
+.testimonialBoxProfile {
+  position: relative;
+  overflow: hidden;
+  width: fit-content;
+  margin: 0 auto;
+}
+.testimonialBoxProfile img {
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.testimonialBoxProfile img:hover {
+  transform: scale(1.1);
+}
+
+.testimonialBoxProfile span {
+  float: right;
+  width: fit-content;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #3799db;
+}
+/* testimonial section css ends here */
+/* =========================================================== */
+
+/* =========================================================== */
+/* subscribe section CSS are starts here */
+.subscribeMainContent {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.subscribeMainContent form input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #3799db;
+  outline: none;
+  width: 460px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.subscribeMainContent form input:focus {
+  box-shadow: 0 0 10px 1px #3799db;
+}
+
+.subscribeMainContent form button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 20px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: grab;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #3799db;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+.subscribeMainContent form button:hover {
+  background-color: #ffffff;
+  color: #3799db;
+}
+/* subscribe section CSS end here */
+/* =========================================================== */
+
+/* =========================================================== */
+/* footer section CSS are Starts here */
+footer.footer {
+  padding: 120px 0 120px 0;
+  overflow: hidden;
+}
+.footerContentContainer {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0 auto;
+}
+.address {
+  width: 350px;
+  float: left;
+}
+.contactUsContainer {
+  width: 550px;
+  float: right;
+}
+.addressContent {
+  margin-bottom: 35px;
+}
+.addressContent h5 {
+  text-align: center;
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.addressContent b {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.phoneNo {
+  margin-bottom: 35px;
+}
+.phoneNo h5 {
+  text-align: center;
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.phoneNo b {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.socialLinks ul {
+  list-style: none;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.socialLinks ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 45px;
+}
+.socialLinks ul li a {
+  color: #3799db;
+  transition: all 0.3s;
+}
+.socialLinks ul li:hover a {
+  color: #a3d770;
+}
+
+.socialLinks ul li:last-child {
+  margin-right: 0;
+}
+
+.contactUs h5 {
+  text-align: start;
+  font-size: 22px;
+  color: #333333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.contactUs form input {
+  display: block;
+  margin-bottom: 25px;
+  padding: 10px 7px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3799db;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+.contactUs form input:focus {
+  box-shadow: 0 0 10px 1px #3799db;
+}
+.contactUs form textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid #3799db;
+  margin-bottom: 25px;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 7px;
+  font-weight: 300;
+  column-rule: #000;
+}
+.contactUs form textarea:focus {
+  box-shadow: 0 0 10px 1px #3799db;
+}
+.contactUs form button {
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #3799db;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.contactUs form button:hover {
+  background-color: #ffffff;
+  color: #3799db;
+}
+/* footer section CSS ends here */
 /* =========================================================== */
