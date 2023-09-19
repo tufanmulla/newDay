@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+  /* ================================================================ */
+  /* Header Responsive CSS are starts here  */
+  header {
+    width: 100%;
+  }
+  header .container {
+    width: 95%;
+    overflow: hidden;
+  }
+  header .logo img {
+    width: 150px;
+    height: 40px;
+  }
+
+  /* swho the mobile menu bar inside max width 600px */
+  .menuBar {
+    display: block;
+    width: 40px;
+    float: right;
+    margin-top: 13px;
+    cursor: pointer;
+  }
+  .menuBar i {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    color: #3799db;
+    font-size: 24px;
+    cursor: grab;
+    transition: all 0.3s;
+  }
+  .menuBar:hover i {
+    transform: scale(1.1);
+  }
+  .menuBar menu {
+    background-color: #ffffff;
+    border: 1px solid #3799db;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .menuBar menu ul {
+    list-style: none;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .menuBar menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: all 0.3s;
+  }
+  .menuBar menu ul li:hover {
+    transform: scale(1.05);
+  }
+  .menuBar menu li:last-child {
+    margin-right: 0;
+  }
+  .menuBar menu ul li a {
+    text-decoration: none;
+    color: #3799db;
+    transition: all 0.3s;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+  .menuBar menu ul li:hover a {
+    color: #333333;
+  }
+  header nav {
+    display: block;
+  }
+  /* Header Responsive CSS ends here  */
+  /* ================================================================ */
+}

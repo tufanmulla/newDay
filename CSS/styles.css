@@ -45,6 +45,28 @@ section {
   font-style: oblique;
   cursor: pointer;
 }
+
+/* when hover over the each section title then apply the cool hover effect (starts)*/
+.coolHoverEffect {
+  --c: #1095c1;
+  line-height: 1.2em;
+  background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0)
+      0 var(--p, 0%),
+    conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100%
+      var(--p, 0%);
+  background-size: var(--s, 0%) 200%;
+  background-repeat: no-repeat;
+  transition: 0.4s ease-in, background-position 0s;
+}
+.coolHoverEffect:hover {
+  --p: 100%;
+  --s: calc(
+    50% + 0.61em
+  ); /* it should be 0.6em(1.2em/2) but we use a litte bigger */
+  color: #fff;
+}
+/* when hover over the each section title then show the hover effect (ends)*/
+
 .titleDiv article img {
   position: absolute;
   top: 150%;
@@ -81,6 +103,12 @@ header .logo img {
 header .logo:hover img {
   transform: scale(1.1);
 }
+
+/* hide the mobile menu bar outside max width 600px */
+.menuBar {
+  display: none;
+}
+
 header nav {
   width: 900px;
   float: right;
