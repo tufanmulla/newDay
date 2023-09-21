@@ -906,6 +906,7 @@ td:nth-child(2) {
 footer.footer {
   padding: 120px 0 50px 0;
   overflow: hidden;
+  position: relative;
 }
 .footerContentContainer {
   overflow: hidden;
@@ -1054,5 +1055,23 @@ footer.footer {
   background-color: #ffffff;
   color: #3799db;
 }
+
+/* back to top button are starts here */
+.bottomToTopButton {
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  bottom: 5px;
+  right: 5px;
+  font-size: 20px;
+}
+.bottomToTopButton i {
+  color: #3799db;
+}
+/* back to top button ends here */
 /* footer section CSS ends here */
 /* =========================================================== */

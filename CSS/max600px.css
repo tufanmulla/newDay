@@ -1,24 +1,39 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+  /* ================================================================ */
+  /* default css are starts here*/
+  .container {
+    width: 95%;
+  }
+  /* default css ends here*/
+  /* ================================================================ */
+
   /* ================================================================ */
   /* Header Responsive CSS are starts here  */
   header {
     width: 100%;
+    position: unset;
+    background-color: #ffffffdc;
   }
   header .container {
     width: 95%;
     overflow: hidden;
   }
+  header .logo {
+    width: fit-content;
+    height: fit-content;
+  }
   header .logo img {
     width: 150px;
-    height: 40px;
+    height: 30px;
   }
 
   /* swho the mobile menu bar inside max width 600px */
   .menuBar {
     display: block;
-    width: 40px;
+    width: 60px;
+    height: 30px;
     float: right;
-    margin-top: 13px;
+    margin-top: 10px;
     cursor: pointer;
   }
   .menuBar i {
@@ -33,33 +48,38 @@
   .menuBar:hover i {
     transform: scale(1.1);
   }
-  .menuBar menu {
+  menu {
     background-color: #ffffff;
     border: 1px solid #3799db;
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 10%;
+    display: none;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 100;
   }
-  .menuBar menu ul {
+  .menuBar:hover menu {
+    display: block;
+  }
+  menu ul {
     list-style: none;
-    padding: 10px;
+    padding: 12px;
     width: fit-content;
     margin: 0 auto;
   }
-  .menuBar menu ul li {
+  menu ul li {
     display: inline-block;
     margin-right: 20px;
     transition: all 0.3s;
   }
-  .menuBar menu ul li:hover {
+  menu ul li:hover {
     transform: scale(1.05);
   }
-  .menuBar menu li:last-child {
+  menu li:last-child {
     margin-right: 0;
   }
-  .menuBar menu ul li a {
+  menu ul li a {
     text-decoration: none;
     color: #3799db;
     transition: all 0.3s;
@@ -68,12 +88,65 @@
     letter-spacing: 1px;
     font-size: 13px;
   }
-  .menuBar menu ul li:hover a {
+  menu ul li:hover a {
     color: #333333;
   }
+  menu ul li a::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform-origin: left;
+    width: 0%;
+    height: 1px;
+    background-color: #3799db;
+    transition: all 0.3s;
+  }
+  menu ul li:hover a::after {
+    width: 100%;
+  }
+
   header nav {
     display: block;
   }
   /* Header Responsive CSS ends here  */
+  /* ================================================================ */
+
+  /* ================================================================ */
+  /* SectionOne responsive CSS design are starts here */
+  #sectionOne article {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #sectionOne article h1 {
+    width: fit-content;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 13px;
+  }
+  #sectionOne article p {
+    width: fit-content;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  #sectionOne .bookNowButton button {
+    font-size: 12px;
+    padding: 8px 5px 8px 5px;
+    width: 100px;
+  }
+
+  .videoBy a {
+    font-size: 12px;
+  }
+  /* SectionOne responsive CSS design ends here */
+  /* ================================================================ */
+
+
+  /* ================================================================ */
+  /* service seciton CSS are Starts here*/
+  
+  /* service seciton CSS are ends here*/
   /* ================================================================ */
 }
