@@ -275,6 +275,9 @@ header nav ul li:last-child {
   display: inline-block;
   margin-bottom: 5px;
 }
+.serviceCard:last-child {
+  margin-bottom: 0;
+}
 .serviceCard img {
   width: 65px;
   float: left;
@@ -961,6 +964,7 @@ footer.footer {
   text-align: center;
   font-size: 16px;
   font-weight: 300;
+  letter-spacing: 1px;
   cursor: pointer;
 }
 .socialLinks h5 {
@@ -1068,6 +1072,7 @@ footer.footer {
   bottom: 5px;
   right: 5px;
   font-size: 20px;
+  position: fixed;
 }
 .bottomToTopButton i {
   color: #3799db;
