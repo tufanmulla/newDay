@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   /* ================================================================ */
   /* default css are starts here*/
   section {
@@ -13,7 +13,7 @@
     margin-bottom: 60px;
   }
   div.titleDiv h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   /* default css ends here*/
   /* ================================================================ */
@@ -23,13 +23,14 @@
   header {
     width: 100%;
     background-color: #ffffffdc;
+    padding: 3px 5px;
   }
   header .logo {
     width: fit-content;
     height: fit-content;
   }
   header .logo img {
-    width: 150px;
+    width: 170px;
     height: 30px;
   }
 
@@ -37,7 +38,7 @@
   .menuBar {
     display: block;
     float: right;
-    margin-top: 10px;
+    margin-top: 8px;
     cursor: pointer;
   }
   .menuBar i {
@@ -45,7 +46,7 @@
     display: block;
     width: fit-content;
     color: #3799db;
-    font-size: 24px;
+    font-size: 28px;
     cursor: grab;
     transition: all 0.3s;
   }
@@ -86,7 +87,7 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 14px;
   }
   menu ul li:hover a {
     color: #333333;
@@ -98,7 +99,7 @@
     left: 0%;
     transform-origin: left;
     width: 0%;
-    height: 1px;
+    height: 2px;
     background-color: #3799db;
     transition: all 0.3s;
   }
@@ -120,25 +121,25 @@
   }
   #sectionOne article h1 {
     width: fit-content;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 22px;
     margin-bottom: 13px;
   }
   #sectionOne article p {
     width: fit-content;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
     line-height: 25px;
   }
 
   #sectionOne .bookNowButton button {
-    font-size: 12px;
-    padding: 8px 5px 8px 5px;
-    width: 100px;
+    font-size: 14px;
+    padding: 10px 7px 10px 7px;
+    width: 110px;
   }
 
   .videoBy a {
-    font-size: 12px;
+    font-size: 13px;
   }
   /* SectionOne responsive CSS design ends here */
   /* ================================================================ */
@@ -149,7 +150,9 @@
     width: 90%;
   }
   .serviceCard {
-    width: 100%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
   }
   .serviceCard img {
     width: 15%;
@@ -159,10 +162,10 @@
     width: 80%;
   }
   .serviceCard article h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .serviceCard article p {
-    font-size: 12px;
+    font-size: 14px;
   }
   /* service seciton CSS are ends here*/
   /* ================================================================ */
@@ -175,7 +178,7 @@
   }
   .awesomeTravelBox {
     display: block;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 40px;
   }
@@ -184,7 +187,7 @@
     margin-bottom: 30px;
   }
   .awesomeTravelBoxContent article h3 {
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 25px;
   }
   .awesomeTravelBoxContent article h3:after {
@@ -192,12 +195,12 @@
     width: 100px;
   }
   .awesomeTravelBoxContent article p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 25px;
     margin-bottom: 15px;
   }
   .awesomeTravelBoxContent a {
-    font-size: 17px;
+    font-size: 19px;
   }
   /* awesome section responsive CSS ends here */
   /* ================================================================ */
@@ -208,18 +211,19 @@
     width: 90%;
   }
   .categoriesContainer .specialCategorie {
-    width: 100%;
-    margin-right: 0;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 70px;
   }
   .categoriesContainer .specialCategorie:last-child {
     margin-bottom: 40;
   }
   .specialCategoriesImgBoxContent article h3 {
-    font-size: 19px;
+    font-size: 21px;
   }
   .specialCategoriesImgBoxContent article h3::after {
-    height: 2px;
+    height: 3px;
   }
   /* special categories section responsive ends here */
   /* ================================================================ */
@@ -229,24 +233,24 @@
   .statisticsContainer {
     width: 90%;
     margin: 0 auto;
+    overflow: hidden;
   }
   .statisticsBox {
-    width: 90%;
-    display: block;
-    margin: 0 auto;
+    width: 50%;
     margin-bottom: 70px;
+    float: right;
   }
   .statisticsBox:last-child {
     margin-bottom: 40px;
   }
   .statisticsBox article img {
-    width: 80px;
+    width: 90px;
   }
   .statisticsBox article h3 {
-    font-size: 23px;
+    font-size: 25px;
   }
   .statisticsBox article p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
   }
   /* stattistics section responsive CSS ends here */
@@ -258,14 +262,14 @@
     width: 100%;
   }
   .tourScheduleContainer table th {
-    font-size: 15px;
+    font-size: 16px;
   }
   .tourScheduleContainer table td {
-    font-size: 12px;
+    font-size: 13px;
   }
   table tbody tr td:first-child,
   td:nth-child(2) {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
   }
   /* tour schedule section responsive CSS ends here */
@@ -274,7 +278,9 @@
   /* ================================================================ */
   /* travel packages section responsive css are starts here */
   .packages {
+    width: 80%;
     display: block;
+    margin: 0 auto;
     margin-bottom: 70px;
   }
 
@@ -290,10 +296,10 @@
     width: 100%;
   }
   .packagesDetails article h4 span:first-child {
-    font-size: 14px;
+    font-size: 15px;
   }
   .packagesDetails article h4 span:last-child {
-    font-size: 13px;
+    font-size: 14px;
   }
   /* travel packages section responsive css ends here */
   /* ================================================================ */
@@ -304,19 +310,19 @@
     width: 90%;
   }
   .testimonialBox p {
-    font-size: 14px;
+    font-size: 15px;
   }
   .testimonialBox p:before {
     top: -5px;
   }
   .testimonialBoxProfile img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-right: 10px;
   }
   .testimonialBoxProfile span {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   /* testimonial section responsive CSS ends here */
   /* ================================================================ */
@@ -328,12 +334,12 @@
   }
   .subscribeMainContent form input {
     width: 100%;
-    font-size: 13px;
+    font-size: 15px;
   }
   .subscribeMainContent form button {
-    font-size: 12px;
+    font-size: 13px;
     width: fit-content;
-    padding: 8px 12px;
+    padding: 10px 14px;
   }
   /* subscribe section responsive CSS ends here */
   /* ================================================================ */
@@ -351,17 +357,17 @@
     margin-bottom: 40px;
   }
   .address h5 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .address b {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
   }
   .socialLinks h5 {
     margin-bottom: 15px;
   }
   .socialLinks ul li a {
-    font-size: 25px;
+    font-size: 27px;
   }
   .contactUsContainer {
     float: none;
@@ -376,19 +382,19 @@
     width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .contactUs form textarea {
     width: 90%;
     display: block;
     margin: 0 auto;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   .contactUs form button {
     margin: 0 auto;
-    font-size: 12px;
-    padding: 8px 12px;
+    font-size: 14px;
+    padding: 10px 12px;
   }
   /* footer section responsive css ends here */
   /* ================================================================ */
@@ -396,10 +402,10 @@
   /* ================================================================ */
   /* back top top button */
   .bottomToTopButton {
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    font-size: 16px;
   }
 
   /* ================================================================ */
