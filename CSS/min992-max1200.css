@@ -322,9 +322,9 @@
     font-size: 15px;
   }
   .subscribeMainContent form button {
-    font-size: 12px;
+    font-size: 15px;
     width: 30%;
-    font-weight: 300;
+    font-weight: 400;
     padding: 10px 14px;
   }
   /* subscribe section responsive CSS ends here */
