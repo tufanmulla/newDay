@@ -2,7 +2,7 @@
   /* ================================================================ */
   /* default css are starts here*/
   section {
-    padding: 90px 0 90px 0;
+    padding: 100px 100px 0;
   }
   .container {
     width: 95%;
@@ -13,7 +13,7 @@
     margin-bottom: 60px;
   }
   div.titleDiv h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
   /* default css ends here*/
   /* ================================================================ */
@@ -21,26 +21,24 @@
   /* ================================================================ */
   /* Header Responsive CSS are starts here  */
   header {
-    padding: 6px 10px;
+    padding: 8px 10px;
   }
   header .logo img {
-    width: 190px;
-    height: 40px;
+    width: 210px;
+    height: 50px;
   }
 
-  /* nav links min width 768px to max width 992px  */
+  /* nav links min width 992 to max width 1200*/
   header .logo {
-    width: 20%;
-  }
-  header .logo img {
-    width: 120px;
+    width: 30%;
   }
   header nav {
     display: block;
-    width: 80%;
+    width: 70%;
+    margin-top: 19.5px;
   }
   header nav ul li a {
-    font-size: 11px;
+    font-size: 14px;
   }
   header .menuBar {
     display: none !important;
@@ -57,30 +55,29 @@
   /* ================================================================ */
   /* SectionOne responsive CSS design are starts here */
   #sectionOne article {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
   #sectionOne article h1 {
     width: fit-content;
-    font-size: 26px;
-    line-height: 22px;
-    margin-bottom: 13px;
+    font-size: 28px;
+    margin-bottom: 15px;
   }
   #sectionOne article p {
     width: fit-content;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 20px;
     line-height: 25px;
   }
 
   #sectionOne .bookNowButton button {
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px 7px 10px 7px;
-    width: 110px;
+    width: 120px;
   }
 
   .videoBy a {
-    font-size: 14px;
+    font-size: 13px;
   }
   /* SectionOne responsive CSS design ends here */
   /* ================================================================ */
@@ -105,17 +102,18 @@
     margin-bottom: 0;
   }
   .serviceCard img {
-    width: 15%;
+    width: 20%;
     height: 50px;
+    margin-right: 10px;
   }
   .serviceCard article {
-    width: 80%;
+    width: 75%;
   }
   .serviceCard article h3 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .serviceCard article p {
-    font-size: 14px;
+    font-size: 16px;
   }
   /* service seciton CSS are ends here*/
   /* ================================================================ */
@@ -130,9 +128,9 @@
   }
   .awesomeTravelBox {
     display: inline;
-    width: 47%;
-    margin-bottom: 40px;
-    margin-right: 37px;
+    width: 40%;
+    margin-bottom: 70px;
+    margin-right: 128px;
     float: left;
   }
   .awesomeTravelBox:last-child {
@@ -273,17 +271,17 @@
   .packages .packagesIMG img {
     width: 100%;
     margin: 0 auto;
-    height: 400px;
+    height: 350px;
   }
   .packagesDetails {
     width: 100%;
   }
   .packagesDetails article h4 span:first-child {
-    font-size: 17px;
+    font-size: 18px;
     margin-right: 100px;
   }
   .packagesDetails article h4 span:last-child {
-    font-size: 16px;
+    font-size: 17px;
   }
   /* travel packages section responsive css ends here */
   /* ================================================================ */
@@ -295,7 +293,7 @@
   }
   .testimonialBox p {
     font-size: 16px;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     margin-bottom: 25px;
   }
@@ -320,7 +318,7 @@
     width: 80%;
   }
   .subscribeMainContent form input {
-    width: 70%;
+    width: 50%;
     font-size: 15px;
   }
   .subscribeMainContent form button {
@@ -345,17 +343,17 @@
     margin-bottom: 40px;
   }
   .address h5 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .address b {
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 1px;
   }
   .socialLinks h5 {
-    margin-bottom: 17px;
+    margin-bottom: 19px;
   }
   .socialLinks ul li a {
-    font-size: 29px;
+    font-size: 31px;
   }
   .contactUsContainer {
     float: none;
@@ -367,13 +365,13 @@
     text-align: center;
   }
   .contactUs form input {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
     font-size: 14px;
   }
   .contactUs form textarea {
-    width: 70%;
+    width: 50%;
     display: block;
     margin: 0 auto;
     font-size: 14px;

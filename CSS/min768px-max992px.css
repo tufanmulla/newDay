@@ -32,9 +32,6 @@
   header .logo {
     width: 20%;
   }
-  header .logo img {
-    width: 120px;
-  }
   header nav {
     display: block;
     width: 80%;
