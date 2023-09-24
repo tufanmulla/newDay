@@ -21,6 +21,7 @@ html {
 .container {
   width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 section {
@@ -110,16 +111,12 @@ header .logo:hover img {
 }
 
 header nav {
-  width: 900px;
+  width: 70%;
   float: right;
-  position: relative;
+  margin-top: 13.5px;
 }
 header nav ul {
   list-style: none;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translate(50%, 50%);
   float: right;
 }
 header nav ul li {
@@ -730,8 +727,7 @@ table tbody tr td {
   text-align: start;
   padding: 20px;
 }
-table tbody tr td:first-child,
-td:nth-child(2) {
+table tbody tr td:first-child {
   font-size: 16px;
   font-weight: 500;
 }

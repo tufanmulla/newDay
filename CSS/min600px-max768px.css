@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   /* ================================================================ */
   /* default css are starts here*/
   section {
@@ -34,7 +34,7 @@
     height: 30px;
   }
 
-  /* swho the mobile menu bar inside max width 600px */
+  /* swho the mobile menu bar inside min width 600px to max width 767px  */
   .menuBar {
     display: block;
     float: right;
@@ -237,11 +237,8 @@
   }
   .statisticsBox {
     width: 50%;
-    margin-bottom: 70px;
-    float: right;
-  }
-  .statisticsBox:last-child {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    float: left;
   }
   .statisticsBox article img {
     width: 90px;
@@ -267,8 +264,7 @@
   .tourScheduleContainer table td {
     font-size: 13px;
   }
-  table tbody tr td:first-child,
-  td:nth-child(2) {
+  table tbody tr td:first-child {
     font-size: 15px;
     font-weight: 500;
   }
