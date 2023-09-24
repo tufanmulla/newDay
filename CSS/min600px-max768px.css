@@ -329,7 +329,7 @@
     width: 80%;
   }
   .subscribeMainContent form input {
-    width: 100%;
+    width: 75%;
     font-size: 15px;
   }
   .subscribeMainContent form button {
@@ -375,13 +375,13 @@
     text-align: center;
   }
   .contactUs form input {
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
     margin-bottom: 20px;
     font-size: 14px;
   }
   .contactUs form textarea {
-    width: 90%;
+    width: 75%;
     display: block;
     margin: 0 auto;
     font-size: 14px;

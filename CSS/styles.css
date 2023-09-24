@@ -1061,13 +1061,13 @@ footer.footer {
   width: fit-content;
   height: fit-content;
   background-color: #ffffff;
-  position: absolute;
   border-radius: 5px;
   cursor: pointer;
   padding: 10px;
   bottom: 5px;
   right: 5px;
   font-size: 20px;
+  z-index: 100;
   position: fixed;
 }
 .bottomToTopButton i {
