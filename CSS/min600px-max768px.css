@@ -6,7 +6,9 @@
   }
   .container {
     width: 95%;
-    overflow: hidden;
+    content: "";
+    clear: both;
+    display: table;
   }
   div.titleDiv {
     width: 80%;
@@ -233,7 +235,9 @@
   .statisticsContainer {
     width: 90%;
     margin: 0 auto;
-    overflow: hidden;
+    content: "";
+    clear: both;
+    display: table;
   }
   .statisticsBox {
     width: 50%;
