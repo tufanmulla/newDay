@@ -287,10 +287,12 @@
   .packages:last-child {
     margin-bottom: 40px;
   }
-
+.packagesIMG {
+  width: 100%;
+}
   .packages .packagesIMG img {
     width: 100%;
-    height: 200px;
+    height: 350px;
   }
   .packagesDetails {
     width: 100%;
