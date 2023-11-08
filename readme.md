@@ -48,7 +48,7 @@ Include some screenshots or images:
 
 ## Author
 
-- [<span style="color: #3799db">Tufan Mulla</span>](https://www.tufanmulla.com/)
+- [Tufan Mulla](https://www.tufanmulla.com/)
 - tufanmulla@yahoo.com
 
 ## License
@@ -65,8 +65,8 @@ I would like to acknowledge the following resources, including the "Anisul Islam
 
 - [Anisul Islam's YouTube Channel](https://www.youtube.com/@anisul-islam): Anisul Islam's YouTube channel provided invaluable tutorials and lessons on web development, HTML, CSS, Git, and GitHub. Specific playlists that were particularly helpful include:
 
-  - <span style="color:#3799db;">[HTML Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3&si=tvR-kyKSgasdg59N)</span>
-  - <span style="color:#3799db;">[CSS Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&si=NS4YzG-CQEEXc0S9)</span>
-  - <span style="color:#3799db;">[Git and GitHub Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-&si=G-y9it1wMTrz2VvR)</span>
+  - [HTML Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3&si=tvR-kyKSgasdg59N)
+  - [CSS Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&si=NS4YzG-CQEEXc0S9)
+  - [Git and GitHub Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-&si=G-y9it1wMTrz2VvR)
 
 These resources, especially Anisul Islam's YouTube channel, played a crucial role in enhancing my understanding of web development and were instrumental in completing this learning project.
