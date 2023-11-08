@@ -8,17 +8,17 @@ This project is a single-page website related to a travel agency. It is not a pr
 
 ## Website URL
 
-You can access the website here: [New Day Travel](https://newdaytravel.netlify.app/{:target="_blank" rel="noopener"})
+You can access the website here: [New Day Travel](https://newdaytravel.netlify.app/){:target="\_blank" rel="noopener"}
 
 ## Sections
 
 The website consists of several sections, including:
 
-1. [Home](https://newdaytravel.netlify.app/#{:target="_blank" rel="noopener"})
-2. [Services](https://newdaytravel.netlify.app/#services{:target="_blank" rel="noopener"})
-3. [Counters](https://newdaytravel.netlify.app/#counters{:target="_blank" rel="noopener"})
-4. [Packages](https://newdaytravel.netlify.app/#packages{:target="_blank" rel="noopener"})
-5. [Subscribe](https://newdaytravel.netlify.app/#subscribe{:target="_blank" rel="noopener"})
+1. [Home](https://newdaytravel.netlify.app/#){:target="\_blank" rel="noopener"}
+2. [Services](https://newdaytravel.netlify.app/#services){:target="\_blank" rel="noopener"}
+3. [Counters](https://newdaytravel.netlify.app/#counters){:target="\_blank" rel="noopener"}
+4. [Packages](https://newdaytravel.netlify.app/#packages){:target="\_blank" rel="noopener"}
+5. [Subscribe](https://newdaytravel.netlify.app/#subscribe){:target="\_blank" rel="noopener"}
 
 ## Features
 
@@ -48,7 +48,7 @@ Include some screenshots or images of your single-page website in action. You ca
 
 ## Author
 
-- [<span style="color: #3799db">Tufan Mulla</span>](https://www.tufanmulla.com/{:target="_blank" rel="noopener"})
+- [<span style="color: #3799db">Tufan Mulla</span>](https://www.tufanmulla.com/){:target="_blank" rel="noopener"}
 - tufanmulla@yahoo.com
 
 ## License
@@ -63,10 +63,10 @@ If you have any feedback or would like to contribute to this learning project, p
 
 I would like to acknowledge the following resources, including the "Anisul Islam" YouTube channel, which were instrumental in the development of this project:
 
-- [Anisul Islam's YouTube Channel](https://www.youtube.com/@anisul-islam{:target="_blank" rel="noopener"}): Anisul Islam's YouTube channel provided invaluable tutorials and lessons on web development, HTML, CSS, Git, and GitHub. Specific playlists that were particularly helpful include:
+- [Anisul Islam's YouTube Channel](https://www.youtube.com/@anisul-islam){:target="\_blank" rel="noopener"}: Anisul Islam's YouTube channel provided invaluable tutorials and lessons on web development, HTML, CSS, Git, and GitHub. Specific playlists that were particularly helpful include:
 
-  - <span style="color:#3799db;">[HTML Tutorials](https://www.youtube.com/playlistlist?=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3{:target="_blank" rel="noopener"})</span>
-  - <span style="color:#3799db;">[CSS Tutorials](https://www.youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO{:target="_blank" rel="noopener"})</span>
-  - <span style="color:#3799db;">[Git and GitHub Tutorials](https://www.youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-{:target="_blank" rel="noopener"})</span>
+  - <span style="color:#3799db;">[HTML Tutorials](https://www.youtube.com/playlistlist?=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3){:target="\_blank" rel="noopener"}</span>
+  - <span style="color:#3799db;">[CSS Tutorials](https://www.youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO){:target="\_blank" rel="noopener"}</span>
+  - <span style="color:#3799db;">[Git and GitHub Tutorials](https://www.youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-){:target="\_blank" rel="noopener"}</span>
 
 These resources, especially Anisul Islam's YouTube channel, played a crucial role in enhancing my understanding of web development and were instrumental in completing this learning project.
