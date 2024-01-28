@@ -218,6 +218,7 @@ header nav ul li:last-child {
   cursor: pointer;
 }
 .bookNowButton {
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
@@ -446,6 +447,7 @@ header nav ul li:last-child {
   letter-spacing: 1px;
   font-weight: 400;
   display: block;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
   text-transform: uppercase;
@@ -910,7 +912,7 @@ table tbody tr td:first-child {
 /* =========================================================== */
 /* footer section CSS are Starts here */
 footer.footer {
-  padding: 120px 0 50px 0;
+  padding: 120px 0 0 0;
   overflow: hidden;
   position: relative;
 }
@@ -918,6 +920,7 @@ footer.footer {
   overflow: hidden;
   width: 1000px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 .address {
   width: 350px;
@@ -983,6 +986,7 @@ footer.footer {
 .socialLinks ul {
   list-style: none;
   margin: 0 auto;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -1063,23 +1067,77 @@ footer.footer {
   color: #3799db;
 }
 
+/* copyRight*/
+.copyRight {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  content: "";
+  display: table;
+  clear: both;
+}
+.copyRight .left {
+  float: left;
+  width: 45%;
+}
+.copyRight .left span {
+  color: #3799db;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.copyRight .left span a {
+  color: #3799db;
+  font-weight: 400;
+  font-size: 14px;
+  text-underline-offset: 4px;
+}
+
+.copyRight .right {
+  float: right;
+  width: 45%;
+}
+.copyRight .right ul {
+  list-style: none;
+  float: right;
+}
+.copyRight .right ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.copyRight .right ul li a {
+  color: #3799db;
+  font-weight: 400;
+  font-size: 14px;
+  text-underline-offset: 4px;
+  letter-spacing: 1px;
+}
+
+.copyRight .right ul li:last-child {
+  margin-right: 0;
+}
+
 /* back to top button are starts here */
 .bottomToTopButton {
+  display: block;
+  margin: 0 auto;
+  width: -moz-fit-content;
   width: fit-content;
   height: fit-content;
-  background-color: #ffffff;
+  background-color: #3799db;
   border-radius: 5px;
   cursor: pointer;
   padding: 10px;
-  bottom: 5px;
-  right: 5px;
   font-size: 20px;
-  z-index: 100;
   position: fixed;
+  bottom: 70px;
+  right:30px;
 }
 .bottomToTopButton i {
-  color: #3799db;
+  color: #ffffff;
 }
 /* back to top button ends here */
+
 /* footer section CSS ends here */
 /* =========================================================== */

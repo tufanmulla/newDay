@@ -287,9 +287,9 @@
   .packages:last-child {
     margin-bottom: 40px;
   }
-.packagesIMG {
-  width: 100%;
-}
+  .packagesIMG {
+    width: 100%;
+  }
   .packages .packagesIMG img {
     width: 100%;
     height: 350px;
@@ -398,6 +398,40 @@
     font-size: 14px;
     padding: 10px 12px;
   }
+
+  /* copyRight*/
+  .copyRight .left {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .copyRight .left span {
+    font-weight: 300;
+    text-align: center;
+    line-height: 25px;
+  }
+  .copyRight .left span a {
+    font-weight: 400;
+  }
+
+  .copyRight .right {
+    width: 100%;
+  }
+  .copyRight .right ul {
+    float: unset;
+    text-align: center;
+  }
+  .copyRight .right ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+
+  .copyRight .right ul li a {
+    color: #3799db;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+  }
   /* footer section responsive css ends here */
   /* ================================================================ */
 
@@ -408,6 +442,9 @@
     height: 35px;
     padding: 10px;
     font-size: 16px;
+    left: unset;
+    right: 20px;
+    bottom: 20px;
   }
 
   /* ================================================================ */
